@@ -3,7 +3,7 @@
 
 ## 🚀 Objetivo
 Criar um carrinho de compras inspirado na Shopee, onde o carrinho possa armazenar itens, adicioná-los, removê-los, deletá-los e calcular automaticamente os subtotais de cada produto..
-
+Será desenvolvido utilizando Node.js, executado no terminal.
 
 ---
 ## 🛠️ Estrutura do Projeto
