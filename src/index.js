@@ -14,13 +14,13 @@ const item2 = await createItem("hotweels lamborghini", 39.99, 3)
 await cartService.addItem(myCart, item1);
 await cartService.addItem(myCart, item2);
 
-await cartService.removeItem(myCart, item2)
+// Remove unidade do item selecionado
 await cartService.removeItem(myCart, item2)
 
 
 await cartService.displaycart(myCart)
 
-//remove dois itens do carrinho
+//deleta dois itens do carrinho
 // await cartService.deleteItem(myCart, item2.name)
 // await cartService.deleteItem(myCart, item1.name)
 

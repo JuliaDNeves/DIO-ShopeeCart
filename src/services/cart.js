@@ -25,8 +25,6 @@ async function deleteItem(userCart, name){
 // -> diminui um item
 async function removeItem(userCart, item){
     const indexFound = userCart.findIndex((p) => p.name === item.name)
-
-    console.log("Item encontrado no index:")
     
     if(indexFound == -1 ){
         console.log("Item não encontrado")
